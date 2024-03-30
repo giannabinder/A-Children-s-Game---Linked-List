@@ -2,7 +2,8 @@ Used proper Object-Oriented design principles to implement a linked list from sc
 Created a design using classes which have appropriate private data members and public services (member functions).
 Tested with Valgrind for no memory leaks.
 
-##################################################################
+
+
 The Game:
 The game “what time is it, big-bad wolf?” is a popular game played by children. 
 One child, the “wolf”, stands at a fixed location,  (0,0). 
@@ -11,9 +12,9 @@ The children ask “what time is it, big-bad wolf?” and the wolf states a time
 The children then move 3 steps directly toward the wolf. 
 If, instead, the wolf says “lunchtime!”, the wolf grabs the children closest to their location, and they are out of the game.
 In this implementation, there is an additional rule: any child in the first quadrant is automatically removed from the game.
-##################################################################
 
-##################################################################
+
+
 Input/Outputs:
 1. Command: SPAWN
    Parameters: x y
@@ -42,6 +43,8 @@ Input/Outputs:
    Description: Indicate the game is over. Ends inputs.
    Output: "the players win" if at least one child is left playing
            "the wolf wins" otherwise
-##################################################################
+
+
+
 
 Project for University of Waterloo's ECE 250. Project description and idea by Mike Cooper-Stachowsky.
