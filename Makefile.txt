@@ -1,0 +1,2 @@
+all: main.cpp List.cpp Child.cpp
+     g++ -g -std=c++11 main.cpp List.cpp Child.cpp
